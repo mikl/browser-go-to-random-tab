@@ -1,0 +1,9 @@
+{
+  "name": "firefox-go-to-random-tab",
+  "title": "Go to random tab",
+  "id": "jid1-3vuPf16zAtrlFA",
+  "description": "A simple button to go to a random open tab.",
+  "author": "Mikkel Hoegh <mikkel@hoegh.org>",
+  "license": "MPL 2.0",
+  "version": "1.0.0"
+}
