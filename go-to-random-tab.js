@@ -17,7 +17,7 @@ function goToRandomTab() {
 
     // Try switching tabs up to three times.
     for (let i = 0; i < 3; i += 1) {
-      let newTabIndex = Math.round(Math.random() * (tabs.length - 1));
+      let newTabIndex = Math.floor(Math.random() * tabs.length);
 
       if (tabs[newTabIndex]) {
         chrome.tabs.update(tabs[newTabIndex].id, { active: true });
