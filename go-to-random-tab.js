@@ -30,3 +30,9 @@ function goToRandomTab() {
 chrome.browserAction.onClicked.addListener(function (tab) {
   goToRandomTab();
 });
+
+chrome.commands.onCommand.addListener(function (command) {
+  if (command == 'go-to-random-tab') {
+    goToRandomTab();
+  }
+});

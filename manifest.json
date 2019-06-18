@@ -20,5 +20,13 @@
   "background": {
     "scripts": ["go-to-random-tab.js"],
     "persistent": false
+  },
+  "commands": {
+    "go-to-random-tab": {
+      "suggested_key": {
+        "default": "Ctrl + Alt + R"
+      },
+      "description": "Switch to a random open tab."
+    }
   }
 }
