@@ -9,7 +9,9 @@
     "96": "icons/random-96.png"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "contextMenus",
+    "storage"
   ],
   "browser_action": {
     "browser_style": true,
