@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Go to random tab",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A simple button to go to a random open tab.",
   "homepage_url": "https://github.com/mikl/browser-go-to-random-tab",
   "icons": {
