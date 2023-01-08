@@ -8,7 +8,7 @@
     "48": "icons/random-48.png",
     "96": "icons/random-96.png"
   },
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "jid1-3vuPf16zAtrlFA@jetpack"
     }
