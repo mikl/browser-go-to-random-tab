@@ -10,7 +10,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "go-to-random-tab@mikkel.hoegh.org"
+      "id": "jid1-3vuPf16zAtrlFA@jetpack"
     }
   },
   "permissions": ["tabs"],
