@@ -7,6 +7,15 @@ theoretically, all browsers supporting the Web Extensions API.
 
 Uses [Iconic][] icons.
 
+## Development
+
+To publish a new version of the extension, package the extension in a zip file
+with this command:
+
+```sh
+git archive --format zip --output ./go-to-random-tab.zip master
+```
+
 [Chrome]: https://google.com/chrome/
 [Firefox]: https://mozilla.org/firefox
 [Iconic]: https://useiconic.com/
