@@ -5,8 +5,8 @@
   "description": "A simple button to go to a random open tab.",
   "homepage_url": "https://github.com/mikl/browser-go-to-random-tab",
   "icons": {
-    "48": "icons/random-48.png",
-    "96": "icons/random-96.png"
+    "48": "icons/shuffle-48.png",
+    "96": "icons/shuffle-96.png"
   },
   "browser_specific_settings": {
     "gecko": {
@@ -17,10 +17,22 @@
   "browser_action": {
     "browser_style": true,
     "default_icon": {
-      "19": "icons/random-19.png",
-      "38": "icons/random-38.png"
+      "16": "icons/shuffle-dark-16.png",
+      "32": "icons/shuffle-dark-32.png"
     },
-    "default_title": "Go to random tab"
+    "default_title": "Go to random tab",
+    "theme_icons": [
+      {
+        "light": "icons/shuffle-light-16.png",
+        "dark": "icons/shuffle-dark-16.png",
+        "size": 16
+      },
+      {
+        "light": "icons/shuffle-light-32.png",
+        "dark": "icons/shuffle-dark-32.png",
+        "size": 32
+      }
+    ]
   },
   "background": {
     "scripts": ["go-to-random-tab.js"],
