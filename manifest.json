@@ -19,7 +19,8 @@
     "default_area": "tabstrip",
     "default_icon": {
       "16": "icons/shuffle-dark-16.png",
-      "32": "icons/shuffle-dark-32.png"
+      "32": "icons/shuffle-dark-32.png",
+      "64": "icons/shuffle-dark-64.png"
     },
     "default_title": "Go to random tab",
     "theme_icons": [
@@ -32,6 +33,11 @@
         "light": "icons/shuffle-light-32.png",
         "dark": "icons/shuffle-dark-32.png",
         "size": 32
+      },
+      {
+        "light": "icons/shuffle-light-64.png",
+        "dark": "icons/shuffle-dark-64.png",
+        "size": 64
       }
     ]
   },
