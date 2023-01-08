@@ -8,6 +8,11 @@
     "48": "icons/random-48.png",
     "96": "icons/random-96.png"
   },
+  "applications": {
+    "gecko": {
+      "id": "go-to-random-tab@mikkel.hoegh.org"
+    }
+  },
   "permissions": ["tabs"],
   "browser_action": {
     "browser_style": true,
