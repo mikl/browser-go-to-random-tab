@@ -5,7 +5,7 @@
 const tabFilter = {
   // Avoid switching to the current tab.
   active: false,
-  currentWindow: true
+  currentWindow: true,
 };
 
 function goToRandomTab() {
@@ -27,7 +27,6 @@ function goToRandomTab() {
   });
 }
 
-
-chrome.browserAction.onClicked.addListener(function(tab) {
+chrome.browserAction.onClicked.addListener(function (tab) {
   goToRandomTab();
 });

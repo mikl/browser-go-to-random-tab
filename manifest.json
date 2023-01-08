@@ -8,9 +8,7 @@
     "48": "icons/random-48.png",
     "96": "icons/random-96.png"
   },
-  "permissions": [
-    "tabs"
-  ],
+  "permissions": ["tabs"],
   "browser_action": {
     "browser_style": true,
     "default_icon": {

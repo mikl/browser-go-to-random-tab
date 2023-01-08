@@ -1,5 +1,4 @@
-“Go to random tab” browser extension
-====================================
+# “Go to random tab” browser extension
 
 Simple browser extension, provides a button to to switch to a random, open tab.
 
