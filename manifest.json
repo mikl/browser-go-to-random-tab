@@ -29,7 +29,7 @@
   "commands": {
     "go-to-random-tab": {
       "suggested_key": {
-        "default": "Ctrl + Alt + R"
+        "default": "Alt+Shift+R"
       },
       "description": "Switch to a random open tab."
     }
