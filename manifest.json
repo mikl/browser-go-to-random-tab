@@ -16,6 +16,7 @@
   "permissions": ["tabs"],
   "browser_action": {
     "browser_style": true,
+    "default_area": "tabstrip",
     "default_icon": {
       "16": "icons/shuffle-dark-16.png",
       "32": "icons/shuffle-dark-32.png"
