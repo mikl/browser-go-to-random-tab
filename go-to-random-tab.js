@@ -6,7 +6,6 @@ const LIMIT_CURRENT_WINDOW = 'limit-to-current-window'
 function goToRandomTab() {
   chrome.storage.sync.get(LIMIT_CURRENT_WINDOW, data => {
     chrome.tabs.query({ active: false, currentWindow: data[LIMIT_CURRENT_WINDOW] }, tabs => {
-      console.log(data, tabs.length)
       // If we need at least one other tabs to switch anywhere.
       if (tabs.length < 1) {
         return;
@@ -55,7 +54,6 @@ function init() {
     chrome.contextMenus.onClicked.addListener(info => {
       if (info.menuItemId == LIMIT_CURRENT_WINDOW) {
         chrome.storage.sync.set({ [LIMIT_CURRENT_WINDOW]: info.checked })
-        chrome.storage.sync.get(null, console.log)
       }
     })
   })
